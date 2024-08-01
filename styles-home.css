@@ -1,0 +1,212 @@
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+    color: white;
+    font-family: "San Francisco", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-bar {
+    margin-top: 10px; 
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "San Francisco", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-bar ul li a:hover {
+    color: #e392fe;
+}
+
+/* Neomorphism Styles */
+.neo-body-1, .neo-body-2, .neo-body-3, .neo-body-4, .neo-body-5 {
+    border-radius: 50px;
+    width: 80%;
+    height: 80%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "San Francisco", Arial, sans-serif;
+    margin-top: 100px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.neo-body-1 {
+    background: #e392fe;
+    box-shadow: 20px 20px 60px #c17cd8, -20px -20px 60px #ffa8ff;
+}
+
+.neo-body-2 {
+    background: #b29cfe;
+    box-shadow: 20px 20px 60px #9785d8, -20px -20px 60px #cdb3ff;
+}
+
+.neo-body-3 {
+    background: #5caeff;
+    box-shadow: 20px 20px 60px #4e94d9, -20px -20px 60px #6ac8ff;
+}
+
+.neo-body-4 {
+    background: #ffa7c4;
+    box-shadow: 20px 20px 60px #cc849a, -20px -20px 60px #ffcad2;
+}
+
+.neo-body-5 {
+    background: #a7ffa3;
+    box-shadow: 20px 20px 60px #84cc82, -20px -20px 60px #c2ffd0;
+    height: auto;
+    flex-direction: column;
+}
+
+.neo-body-5 form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.neo-body-5 form label {
+    margin-top: 10px;
+}
+
+.neo-body-5 form input, 
+.neo-body-5 form textarea {
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.neo-body-5 form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background: #5caeff;
+    color: white;
+    cursor: pointer;
+}
+
+/* General Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, rgba(227,146,254,1) 10%, rgba(178,156,254,1) 30%, rgba(92,174,255,1) 50%, rgba(255,167,196,1) 70%, rgba(167,255,163,1) 90%);
+
+
+    color: white;
+    padding-top: 80px;
+}
+
+.container {
+    height: 90vh;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.padding {
+    height: 5%;
+    color: #e392fe;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7); 
+    box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.1);
+
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content {
+    text-align: center;
+    color: white;
+    font-family: "San Francisco", Arial, sans-serif;
+}
+
+.footer .socials {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: auto;
+}
+
+.footer .socials li {
+    display: inline;
+}
+
+.footer .socials li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.footer .socials li a:hover {
+    color: #e392fe;
+}
+
+
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 5%;
+    font-family: "San Francisco", Arial, sans-serif;
+    color: white;
+}
+
+.custom-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.custom-list li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+.custom-list li:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+}
+
